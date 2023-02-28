@@ -1,0 +1,125 @@
+body {
+background-color: white;
+}
+h2 {
+text-align: center;
+font-family: 'Sofia', fantasy;
+color: black;
+text-shadow: 2px 2px 4px black;
+font-size: 35px;
+}
+h3 {
+text-align: center;
+font-family: 'Mynerve', fantasy;
+color: black;
+text-shadow: 2px 2px 4px black;
+font-size: 35px;
+}
+h4 {
+text-align: center;
+font-family: 'Sofia', fantasy;
+color: black;
+text-shadow: 2px 2px 4px black;
+font-size: 40px;
+}
+h5 {
+text-align: center;
+font-family: 'Mynerve', fantasy;
+color: black;
+text-shadow: 2px 2px 4px black;
+font-size: 40px;
+}
+li {
+  text-align: justify;
+  font-size: 17px;
+  font-family: 'Laila', serif;
+}
+.grupa {
+width: 500px;
+height: auto;
+position: relative;
+left: 350px;
+}
+.school {
+width: 500px;
+height: auto;
+position: relative;
+left: 350px;
+}
+.prasmes {
+width: 500px;
+height: auto;
+position: relative;
+left: 350px;
+}
+.friends {
+width: 500px;
+height: auto;
+position: relative;
+left: 350px;
+}
+p {
+text-align: justify;
+font-size: 20px;
+font-family: 'Laila', serif;
+}
+table {
+  font-family: Gudea, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  border-color: Plum;
+  text-align: center;
+  padding: 20px;
+}
+td {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+.dropbtn {
+  background-color: LightSkyBlue;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: cell;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: LightYellow;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: LightSlateGray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: cell;
+  font-family: 'Laila', serif;
+}
+
+.dropdown-content a:hover {background-color: PaleVioletRed}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: LightPink;
+}
